@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CodeGeneratorAppDelegate : UIResponder <UIApplicationDelegate>
+@interface CodeGeneratorAppDelegate : UIResponder <UIApplicationDelegate, UITableViewDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
